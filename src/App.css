@@ -15,6 +15,12 @@ body{
   color: inherit; /* Use the default text color */
   /* You can add additional styles as needed */
 }
+.test{
+  color: #1c184e;
+  color:#2e2880;
+  color:#4c43cd;
+  
+}
 
 .appbar_cell:hover{
   background-color: rgba(255, 255, 255, 0.3);

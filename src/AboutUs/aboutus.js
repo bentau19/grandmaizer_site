@@ -14,20 +14,6 @@ const AboutUs=()=>{
     I aimed for efficiency and accessibility, making the internet a friendlier place for everyone!
 </div>
 </div>
-<div class="flex-row">
-  <div class="flex-container row1">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>  
-    <div>4</div>
-  </div>
-  <div class="flex-container row2">
-    <div>5</div>
-    <div>6</div>  
-    <div>7</div>
-    <div>8</div>
-  </div>
-</div>
     </div>
 }
 
