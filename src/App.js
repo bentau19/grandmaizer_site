@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import './AboutUs/aboutus'
+import {Header} from'./Header/header'
+import AboutUs from './AboutUs/aboutus';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+  <div style={{ textAlign:"center", color:"white"}}>
+    <a className='appbar_cell' href="#aboutUs">ABOUT US</a>
+    <div className='appbar_cell'>DOWNLOAD</div>
+    <div className='appbar_cell'>HOW TO</div>
+    <div className='appbar_cell'>DONATE</div>
+  </div>
+  <Header/>
+  <div style={{height:"1000px"}}></div>
+  <div id='aboutUs'/>
+  <AboutUs />
+  
+
+
+</>
   );
 }
 

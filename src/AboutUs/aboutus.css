@@ -1,0 +1,58 @@
+.aboutUs_cell{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(250, 234, 214 , 0.7);
+    display: inline-block;
+    margin: 1%;
+    width: 30%;
+    height: 270px;
+    padding: 15px;
+}
+
+.aboutUs_cell:hover{
+    margin: 0;
+    height: 290px;
+    width: 33%;
+}
+
+.aboutUs_container{
+    display: flex;
+    margin-top: 60px;
+  justify-content: center;
+}
+ 
+.flex-row {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content:space-around;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  
+  
+  .flex-container div{
+    animation: iconintro 0.5s ease-in-out forwards;
+      opacity: 0;
+  }
+          
+          .row1 div:nth-child(2) {
+              animation-delay: 0.25s;
+          }
+          
+          .row1 div:nth-child(3) {
+              animation-delay: 0.50s;
+          }
+          
+
+  
+  @keyframes iconintro {
+      0%   {transform: scale(0.1,0.1); opacity: 0;}
+      70%  {transform: scale(1.25,1.25); opacity: 0.8;}
+        80%  {transform: scale(0.8,0.8); opacity: 1;}
+      100% {transform: scale(1,1); opacity: 1;}
+  }
