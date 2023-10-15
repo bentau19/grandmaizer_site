@@ -8,7 +8,8 @@ const Download=()=>{
         </h1>
     </div>
     <img src={img} className='download_img' alt="img" />
-    
+    <p style={{color:"white"}} >sdf</p>
+    <button className='download_button'> DOWNLOAD</button>
     </>
 }
 

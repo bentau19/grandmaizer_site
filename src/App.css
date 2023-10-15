@@ -2,7 +2,9 @@
 body{
   background: black;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .appbar_cell{
   position:sticky;
   display: inline-block;
@@ -19,7 +21,6 @@ body{
   color: #1c184e;
   color:#2e2880;
   color:#4c43cd;
-  
 }
 
 .appbar_cell:hover{

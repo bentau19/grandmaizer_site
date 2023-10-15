@@ -2,17 +2,22 @@
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    background-color: rgb(250, 234, 214 , 0.7);
+    background: rgba(250, 234, 214, 0.66);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(250, 234, 214, 0.64);
     display: inline-block;
     margin: 1%;
     width: 30%;
-    height: 270px;
+    min-height: 270px;
     padding: 15px;
 }
 
 .aboutUs_cell:hover{
     margin: 0;
-    height: 290px;
+    min-height: 290px;
     width: 33%;
 }
 
